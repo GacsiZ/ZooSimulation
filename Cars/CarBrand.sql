@@ -1,0 +1,11 @@
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CarBrand](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Name] NVARCHAR(120) NOT NULL,
+	[Status_Id] int not null,
+)
+GO

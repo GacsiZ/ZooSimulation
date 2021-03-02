@@ -1,0 +1,12 @@
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CarPrice](
+	[id] [int] IDENTITY(1,1) NOT NULL,
+	[CartypeId] int NOT NULL,
+	[Price] BIGINT NOT NULL,
+	[FromDate] DateTime NOT NULL,
+)
+GO
